@@ -9,7 +9,7 @@
                     <NavBarLink
                         :page="page"
                         :isActive="activePage === index"
-                        @click.prevent="navLinkClick(index) "
+                        @click.prevent="navLinkClick(index)"
                     ></NavBarLink>
                 </li>
             </ul>
